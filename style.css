@@ -33,13 +33,10 @@ body
 }
 
 header{
-    position: fixed;
     background-color: rgba(0, 0, 0, 0.075);
     color: rgb(255, 0, 0);
     font-family: 'Otomanopee One', sans-serif;
     text-align: center;
-    top: 50px;
-    z-index: 1;
 }
 
 #campus
@@ -141,9 +138,10 @@ header{
     margin-left: -300px;
 }
 
-#contact
+.contact
 {
-    
+    display: flex;
+    justify-content: center;
 }
 
 .map
